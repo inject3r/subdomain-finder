@@ -1,4 +1,4 @@
-# Subdomain Finder - Advanced Subdomain Discovery Tool
+# Subdomain Finder
 
 Professional subdomain enumeration tool with 8 powerful discovery techniques, real-time progress tracking, interactive pause/resume, and automatic state persistence.
 
