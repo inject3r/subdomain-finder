@@ -40,10 +40,6 @@ dns_records.txt
 crawled_urls.txt
 raw_output.log
 
-# Wordlists
-list.txt
-custom_wordlist.txt
-
 # Testing
 .pytest_cache/
 .coverage
