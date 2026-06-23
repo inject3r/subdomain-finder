@@ -8,10 +8,10 @@ from typing import Callable, Optional, Set
 from atomhttp import AtomHTTP
 from colorama import Fore
 
-from techniques.base import BaseTechnique
-from core.logger import SubdomainLogger
-from core.controller import InteractiveController
-from utils.http import USER_AGENTS
+from .base import BaseTechnique
+from ..core.logger import SubdomainLogger
+from ..core.controller import InteractiveController
+from ..utils.http import USER_AGENTS
 
 
 class WaybackMachine(BaseTechnique):

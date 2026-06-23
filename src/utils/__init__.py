@@ -1,8 +1,8 @@
 """Utility modules for DNS, HTTP, and validation functions."""
 
-from utils.dns import DNSUtils
-from utils.http import USER_AGENTS, get_random_user_agent
-from utils.validators import validate_domain, validate_wordlist
+from .dns import DNSUtils
+from .http import USER_AGENTS, get_random_user_agent
+from .validators import validate_domain, validate_wordlist
 
 __all__ = [
     "DNSUtils",

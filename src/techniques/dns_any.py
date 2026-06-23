@@ -8,9 +8,9 @@ import dns.query
 import dns.zone
 from colorama import Fore
 
-from techniques.base import BaseTechnique
-from core.logger import SubdomainLogger
-from core.controller import InteractiveController
+from .base import BaseTechnique
+from ..core.logger import SubdomainLogger
+from ..core.controller import InteractiveController
 
 
 class DNSAnyQuery(BaseTechnique):

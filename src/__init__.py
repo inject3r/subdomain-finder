@@ -7,9 +7,9 @@ certificate transparency logs, and more.
 
 __version__ = "0.1.0"
 
-from core.scanner import AdvancedSubdomainFinder
-from core.logger import SubdomainLogger
-from core.controller import InteractiveController
+from src.core.scanner import AdvancedSubdomainFinder
+from src.core.logger import SubdomainLogger
+from src.core.controller import InteractiveController
 
 __all__ = [
     "AdvancedSubdomainFinder",

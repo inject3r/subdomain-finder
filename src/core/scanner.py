@@ -1,26 +1,24 @@
 """Main scanner orchestrating all discovery techniques."""
 
 import time
-import threading
 from datetime import datetime
 from typing import List, Set, Dict, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-import dns.resolver
 from colorama import Fore
 
-from core.logger import SubdomainLogger
-from core.controller import InteractiveController
-from models.state import ScanState
-from utils.dns import DNSUtils
-from techniques.html_crawler import HTMLSubdomainExtractor
-from techniques.dns_any import DNSAnyQuery
-from techniques.cert_transparency import CertificateTransparency
-from techniques.wayback import WaybackMachine
-from techniques.public_dns import PublicDNSDatasets
-from techniques.permutations import SmartPermutations
-from techniques.numeric import NumericPatterns
-from techniques.bruteforce import BruteforceSubdomains
+from .logger import SubdomainLogger
+from .controller import InteractiveController
+from ..models.state import ScanState
+from ..utils.dns import DNSUtils
+from ..techniques.html_crawler import HTMLSubdomainExtractor
+from ..techniques.dns_any import DNSAnyQuery
+from ..techniques.cert_transparency import CertificateTransparency
+from ..techniques.wayback import WaybackMachine
+from ..techniques.public_dns import PublicDNSDatasets
+from ..techniques.permutations import SmartPermutations
+from ..techniques.numeric import NumericPatterns
+from ..techniques.bruteforce import BruteforceSubdomains
 
 
 class AdvancedSubdomainFinder:

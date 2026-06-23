@@ -3,9 +3,9 @@
 from typing import Callable, List, Set, Optional, Any
 from colorama import Fore
 
-from techniques.base import BaseTechnique
-from core.logger import SubdomainLogger
-from core.controller import InteractiveController
+from .base import BaseTechnique
+from ..core.logger import SubdomainLogger
+from ..core.controller import InteractiveController
 
 
 class SmartPermutations(BaseTechnique):

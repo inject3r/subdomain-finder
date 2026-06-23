@@ -4,9 +4,9 @@ from typing import Callable, List, Optional, Set, Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from colorama import Fore
 
-from techniques.base import BaseTechnique
-from core.logger import SubdomainLogger
-from core.controller import InteractiveController
+from .base import BaseTechnique
+from ..core.logger import SubdomainLogger
+from ..core.controller import InteractiveController
 
 
 class BruteforceSubdomains(BaseTechnique):

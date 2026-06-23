@@ -4,8 +4,8 @@ from abc import ABC, abstractmethod
 from typing import Callable, Dict, List, Optional, Set, Tuple, Any
 from colorama import Fore
 
-from core.logger import SubdomainLogger
-from core.controller import InteractiveController
+from ..core.logger import SubdomainLogger
+from ..core.controller import InteractiveController
 
 
 class BaseTechnique(ABC):

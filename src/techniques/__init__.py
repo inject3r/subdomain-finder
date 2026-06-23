@@ -1,13 +1,13 @@
 """Techniques module containing all subdomain discovery methods."""
 
-from techniques.html_crawler import HTMLSubdomainExtractor
-from techniques.dns_any import DNSAnyQuery
-from techniques.cert_transparency import CertificateTransparency
-from techniques.wayback import WaybackMachine
-from techniques.public_dns import PublicDNSDatasets
-from techniques.permutations import SmartPermutations
-from techniques.numeric import NumericPatterns
-from techniques.bruteforce import BruteforceSubdomains
+from .html_crawler import HTMLSubdomainExtractor
+from .dns_any import DNSAnyQuery
+from .cert_transparency import CertificateTransparency
+from .wayback import WaybackMachine
+from .public_dns import PublicDNSDatasets
+from .permutations import SmartPermutations
+from .numeric import NumericPatterns
+from .bruteforce import BruteforceSubdomains
 
 __all__ = [
     "HTMLSubdomainExtractor",
